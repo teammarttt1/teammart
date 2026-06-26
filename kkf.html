@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Mart | تیم مارت</title>
+    <style>
+        /* ستایلی گشتی - بەکارهێنانی ڕەنگی شەکەری بۆ باکگراوند */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f2eb; /* ڕەنگی شەکەری */
+            color: #1a2a3a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* سندوقی ناوەڕۆک */
+        .container {
+            text-align: center;
+            max-width: 450px;
+            width: 100%;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        /* لۆگۆی بازنەیی */
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 4px solid #004494; /* هێڵی دەوری لۆگۆ بە شین */
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        /* ناو و وەسف */
+        h1 {
+            font-size: 26px;
+            color: #004494; /* ڕەنگی شین بۆ ناوەکە */
+            margin: 10px 0 5px 0;
+            font-weight: bold;
+        }
+
+        .description {
+            font-size: 15px;
+            color: #555555;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        /* بەشی جیاکەرەوەی ناونیشانەکان */
+        .section-title {
+            font-size: 14px;
+            color: #777777;
+            text-align: right;
+            margin: 15px 5px 5px 0;
+            font-weight: bold;
+        }
+
+        /* ستایلی دوگمەکان - ڕەنگی شین */
+        .bio-link {
+            display: block;
+            background-color: #004494; /* شینی سەرەکی */
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px;
+            margin-bottom: 12px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 68, 148, 0.15);
+        }
+
+        /* کاتێک ماوس دەچێتە سەر دوگمەکە */
+        .bio-link:hover {
+            transform: translateY(-2px);
+            background-color: #003370; /* شینی تۆختر */
+            box-shadow: 0 6px 12px rgba(0, 68, 148, 0.25);
+        }
+
+        /* دوگمەی پەیوەندی و نامەکان */
+        .contact-link {
+            background-color: #25d366; /* ڕەنگی تایبەت بە واتسئەپ */
+            box-shadow: 0 4px 6px rgba(37, 211, 102, 0.15);
+        }
+        .contact-link:hover {
+            background-color: #20ba5a;
+        }
+
+        .phone-link {
+            background-color: #e2e8f0;
+            color: #1a2a3a;
+            box-shadow: none;
+        }
+        .phone-link:hover {
+            background-color: #cbd5e1;
+            color: #1a2a3a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://scontent.febl5-1.fna.fbcdn.net/v/t39.30808-6/327450236_1942116499469719_801308185209015741_n.jpg?stp=dst-jpg_tt6&cstp=mx1880x1880&ctp=s1880x1880&_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeELHiXZLQWiKpCGc1XKGozImE5QOQiBueaYTlA5CIG55oCX47B-NTl_QwBIJIJ3RcG_OF_sUm-BvOaiMMD32biL&_nc_ohc=jXnnGEqwhTwQ7kNvwHRDwa4&_nc_oc=AdqQXzgIE3zTzn2NAyUxzNRNehJivNrGy9gM1vtePW1ysDiKTpB4WJx40hqybqr6yiE&_nc_zt=23&_nc_ht=scontent.febl5-1.fna&_nc_gid=y-5egoCGqBMrTV1S1giKiw&_nc_ss=7b2a8&oh=00_Af-rJryj5ZstlCm39Apd-wKq8OtYd5lDaf2NMnSToGr7Vw&oe=6A4497BF" alt="Team Mart Logo" class="profile-img">
+
+        <h1>تیم مارت - Team Mart</h1>
+        <p class="description">تیم مارت گەورەترین زنجیرە مارکێت لە هەموو عێراق</p>
+
+        <div class="section-title">تۆڕە کۆمەڵایەتییەکان:</div>
+        <a href="https://www.facebook.com/share/1BEmC9G1Jq/" target="_blank" class="bio-link">فەیسبووک | Facebook</a>
+        <a href="https://www.instagram.com/teammart.erbil?igsh=MXByNzlrOWo1Yngyeg==" target="_blank" class="bio-link">ئینستاگرام | Instagram</a>
+        <a href="https://www.tiktok.com/@teammart.iraq?_r=1&_t=ZS-96rE4hZtuo1" target="_blank" class="bio-link">تیک تۆک | TikTok</a>
+        <a href="https://www.snapchat.com/@teammart.iraq?sender_web_id=e63e6236-69d4-4b38-a301-d99e8db1db51&device_type=desktop&is_copy_url=true" target="_blank" class="bio-link">سناپ چات | Snapchat</a>
+        <a href="https://invite.viber.com/?g2=AQAfNsDQCMyJOErE%2F%2FhkOMYc7yxmzHr%2BFkpdV0A%2FPVzK6CdCxCG9y0KAMIB5xxK5&lang=en" target="_blank" class="bio-link">ڤایبەر | Viber</a>
+
+        <div class="section-title">ناونیشان:</div>
+        <a href="https://maps.app.goo.gl/N22sVecNEeUmVXUy8" target="_blank" class="bio-link" style="background-color: #db4437;">هەولێر : گەڕەکی تەیراوە (Location)</a>
+
+        <div class="section-title">پەیوەندی و داواکاری:</div>
+        <a href="tel:07501727667" class="bio-link phone-link">📞 ژمارە مۆبایلی کارگێڕی: 07501727667</a>
+        <a href="https://wa.me/9647502654000" target="_blank" class="bio-link contact-link">💬 WhatsApp - لقی هەولێر</a>
+        <a href="https://wa.me/9647765558065" target="_blank" class="bio-link contact-link">💬 WhatsApp - لقی سلێمانی</a>
+    </div>
+
+</body>
+</html>
